@@ -1,0 +1,86 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background: black;
+}
+
+#container{
+			width: 850px;
+			height: 100%;
+			background: #fff;
+			margin: auto;
+			
+			
+}
+
+#head{
+	background: red;
+	color: #fff;
+	text-align: center;
+	height:60px;
+	padding-top: 5px;
+	font-family: "Pinyon Script", cursive;
+}
+#image{
+	height: 270px;
+
+	
+}
+
+#menu{
+	text-align: center;
+	font-size: 25px;
+	font-family: "Pinyon Script", cursive;
+	border-top: 5px black groove;
+	
+}
+
+#table{
+	width: 800px;
+	margin: auto;
+	border-collapse: collapse;
+	text-align:left;
+	font-family: sans-serif;
+	font-style: italic;
+
+}
+#table th{
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 50px;
+	padding-top: 10px;
+}
+#table tr{
+	height: 40px;
+	font-size: 16px;
+}
+
+#table th,
+#table td{
+	border: 2px solid black;
+}
+#table td:first-child,
+#table td:last-child{
+	width: 150px;
+	text-align: center;
+}
+#table td:last-child{
+	color: red;
+}
+
+#footer{
+	background: red;
+	color: #fff;
+	text-align: center;
+	height: 60px;
+	padding-top: 15px;
+
+}
